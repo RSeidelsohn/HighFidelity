@@ -12,8 +12,8 @@
 
 <template>
     <div class="home">
-        <h1>HighFidelity</h1>
-        <h2>Your music search engine</h2>
+        <h1 class="text-3xl">HighFidelity</h1>
+        <h2 class="text-xl mb-4">Your music search engine</h2>
 
         <SearchForm />
     </div>
