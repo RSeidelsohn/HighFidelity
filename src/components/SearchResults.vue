@@ -3,32 +3,13 @@
 
     export default defineComponent({
         name: 'SearchResults',
-        data() {
-            return {};
-        },
-        props: {},
-        methods: {},
     });
 </script>
 
 <template>
-    <div></div>
+    <div class="border rounded bg-slate-50 max-w-[600px] w-5/6 mx-auto mb-24 text-left p-1">
+        <h3>Search results:</h3>
+    </div>
 </template>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-    h3 {
-        margin: 40px 0 0;
-    }
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    li {
-        display: inline-block;
-        margin: 0 10px;
-    }
-    a {
-        color: #42b983;
-    }
-</style>
+<style scoped lang="scss"></style>
